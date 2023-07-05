@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+ 
+/*设置这个页面的背景颜色，字体和字体大小*/
+body{
+	background-color: #F5F5DC;
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+ 
+.main{
+	width: 1200px;
+	height: 600px;
+	top:0;
+	position: relative;
+}
+ 
+/*设置logo的位置大小*/
+.div1{
+	width: 300px;
+	height: 50px;
+	float:left;
+	margin-top:10px;
+}
+ 
+/*设置导航栏*/
+.div2{
+	width: 600px;
+	height:50px;
+	float:left;
+	line-height: 50px;
+	margin-top:10px;
+}
+ 
+.hide{
+	display: none;
+}
+ 
+/*实现跳转页面的位置设置*/
+.div3{
+	width: 200px;
+	height:50px;
+	float:right;
+	line-height: 50px;
+	margin-top:10px;
+}
+ 
+/*左侧图片的设置*/
+.div4{
+	width:600px;
+	height: 536px;
+	float:left;
+	margin:10px auto 30px;
+	
+}
+ 
+/*右侧注册页面的设置*/
+.div5{
+	width:600px;
+	height:536px;
+	background:white;
+	float:left;
+}
+ 
+/*用户注册四个字的颜色大小位置*/
+.div6{
+	margin:130px 150px 10px;
+	width:250px;
+	color:red;
+	font-size:35px;
+	padding-bottom:20px;
+	border-bottom:3px solid rgba(245,245,245,0.7);
+}
+
+
+/*表单设置*/
+form{
+	margin:20px 200px 20px 1000px
+	line-height: 40px;
+}
+ 
+/*注册按钮的大小,背景颜色,圆角设置*/
+.btn{
+    padding:5px 10px;
+	background-color:red;
+	color:white;
+	border-radius:3px;
+	font-size:15px;
+    cursor:pointer;
+    text-align: center;
+  margin:10px auto 30px;
+}
