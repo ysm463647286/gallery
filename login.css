@@ -5,7 +5,7 @@
  
 /*设置这个页面的背景颜色，字体和字体大小*/
 body{
-	background-color: rgba(245,245,245,0.8);
+	background-color: #F5F5DC;
 	font-size: 16px;
 	font-family: 微软雅黑;
 }
@@ -63,6 +63,14 @@ body{
 	background:white;
 	float:left;
 }
+
+.div5 .btn {
+  display: block;
+  width: 15%;
+  text-align: center;
+  margin:10px auto 30px;
+}
+
  
 /*用户注册四个字的颜色大小位置*/
 .div6{
